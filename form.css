@@ -1,0 +1,111 @@
+/* Reset dasar */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+  background: #f4f6f8;
+  padding: 20px;
+}
+
+/* Form container */
+form {
+  max-width: 600px;
+  margin: auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Label */
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Semua input, select */
+input,
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Radio & checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+/* Group radio & checkbox */
+p {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Button */
+button {
+  cursor: pointer;
+  margin-top: 15px;
+  border: none;
+  background: #3498db;
+  color: white;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+/* Reset button */
+button[type="reset"] {
+  background: #e74c3c;
+}
+
+button[type="reset"]:hover {
+  background: #c0392b;
+}
+
+/* Disabled input */
+input:disabled {
+  background: #eee;
+  color: #888;
+}
+
+/* Error text */
+.error-text {
+  color: #e74c3c;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+/* Form row (nama depan & belakang) */
+.form-row {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Form group */
+.form-group {
+  flex: 1;
+}
+
+/* Focus effect */
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 3px rgba(52, 152, 219, 0.5);
+}

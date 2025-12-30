@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* NAVBAR */
+nav {
+    background: #222;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00bcd4;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: white;
+}
+
+/* FOTO */
+.foto-profil {
+    width: 280px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* CONTAINER */
+section {
+    background: white;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* JUDUL SECTION */
+section h2 {
+    border-bottom: 2px solid #00bcd4;
+    padding-bottom: 8px;
+}
+
+/* LIST */
+ul {
+    padding-left: 20px;
+}
+
+/* PROJECT CARD */
+#project ul li {
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+}
+
+/* BUTTON */
+button {
+    padding: 8px 15px;
+    margin: 5px 0;
+    border: none;
+    background: #00bcd4;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0097a7;
+}
+
+/* INPUT */
+input {
+    padding: 7px;
+    margin: 5px 0;
+    width: 200px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}

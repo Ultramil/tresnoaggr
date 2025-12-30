@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <form>
+    <input type="text">
+    <button>Kirim</button>
+
+    <label for="nama">Nama</label>
+    <input type="text" id="nama" placeholder="Tulis nama kamu">
+
+    <!-- Untuk email (browser validasi format email) -->
+    <input type="email" placeholder="email@contoh.com">
+
+    <!-- Untuk password (tulisan jadi titik-titik) -->
+    <input type="password" placeholder="Password">
+
+    <!-- RADIO BUTTON = Pilih SATU saja (○) -->
+     <p>Jenis Kelamin:</p> 
+     <input type="radio" id="pria" name="gender" value="laki-laki"> 
+     <label for="pria">Laki-laki</label> 
+
+     <input type="radio" id="wanita" name="gender" value="perempuan"> 
+<label for="wanita">Perempuan</label>
+
+<!-- CHECKBOX = Pilih BANYAK (□) --> 
+<p>Hobi:</p> 
+<input type="checkbox" id="baca" name="hobi" value="membaca"> 
+<label for="baca">Membaca</label> 
+<input type="checkbox" id="olahraga" name="hobi" value="olahraga"> 
+<label for="olahraga">Olahraga</label> 
+<input type="checkbox" id="camping" name="hobi" value="camping"> 
+<label for="olahraga">Camping</label> 
+
+<label for="kota">Kota:</label> 
+<select id="kota" name="kota"> 
+<option value="">-- Pilih Kota --</option> 
+<option value="jakarta">Jakarta</option> 
+<option value="bandung">Bandung</option> 
+<option value="surabaya">Surabaya</option> 
+<option value="tasikmalaya">Tasikmalaya</option> 
+<option value="bekasi">Bekasi</option> 
+<option value="semarang">Semarang</option> 
+<option value="denpasar">Denpasar</option> 
+</select>
+
+<!-- NUMBER = Hanya angka --> 
+<input type="number" min="1" max="100" step="1"> 
+
+<!-- DATE = Kalender tanggal --> 
+<input type="date"> 
+
+<!-- FILE = Upload file/gambar --> 
+<input type="file" accept=".jpg,.png,.pdf"> 
+
+<!-- COLOR = Pilih warna --> 
+<input type="color" value="#3498db"> 
+
+<!-- SUBMIT = Kirim data form ke server --> 
+<button type="submit">Daftar</button> 
+
+<!-- RESET = Hapus semua isian --> 
+<button type="reset">Hapus</button> 
+
+<!-- REQUIRED = Wajib diisi --> 
+<input type="text" required> 
+
+<!-- DISABLED = Non-aktif (tidak bisa diisi) --> 
+<input type="text" disabled value="Tidak bisa diubah"> 
+
+<!-- READONLY = Hanya baca (bisa dikirim) --> 
+<input type="text" readonly value="Hanya baca"> 
+
+<!-- MAXLENGTH = Batas panjang karakter --> 
+<input type="text" maxlength="50">
+
+    </form> 
+</body>
+</html>
